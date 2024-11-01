@@ -1,0 +1,40 @@
+#tab-list-content {
+	width: 95%;
+	display: block;
+	margin: 5px;
+	clear: both;
+}
+#selection-filters {
+	width: 30%;
+	display: block;
+	float: left;
+	padding: 5px;
+}
+#selection-filters ul {
+	list-style: none;
+}
+#selection-filters li {
+	background: none;
+	float: left;
+	margin-left: 4px;
+}
+#myTable thead tr, #myTable tfoot tr {
+    height: 35px;
+    background: #f2f6f8;
+    background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(50%,#d8e1e7), color-stop(51%,#b5c6d0), color-stop(100%,#e0eff9));
+    background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); 
+    background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); 
+    background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); 
+    background: linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 );
+    cursor: pointer;
+    text-shadow: 1px 1px 1px ##444444;
+    filter: dropshadow(color=##444444, offx=1, offy=1);
+}
+#myTable tbody tr {
+    background-color: rgba(63, 132, 171, 0.1);
+}
+#myTable tbody tr:hover {
+    background-color: rgba(63, 132, 171, 0.2);
+}
